@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background:rgba(0,0,0, .1);
+    box-sizing: border-box;
+}
+body{
+    background: #000000;
+    color: #fff;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 4% 0;
+    margin: 20px;
+    font-size: 16px;
+}
+.logo{
+    color:white;
+    font-size: 20px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    
+    
+}
+span{
+    color:rgb(218, 218, 200);
+    font: size 25px;
+    font-weight: bold;
+}
+
+.hero nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px 20px;
+    font-size: 22;
+}
+
+.hero nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+    color: yellow;
+    transition: 0.4s;
+    background:rgb(66, 19, 19);
+    padding: 5px;
+    border-radius: 5px;
+    border-bottom: 1px solid blueviolet;
+}
+
+.hero nav .cont a{
+
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: bold;
+    text-transform: capitalize;
+    background:rgb(14, 49, 38);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+nav .cont a:hover{
+    color: yellow;
+    transition: 0.4s;
+    background:rgb(32, 14, 49);
+    padding: 5px;
+    border-radius: 5px;
+    border-bottom: 1px solid blueviolet;
+
+}
